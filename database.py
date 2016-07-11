@@ -2,10 +2,10 @@ import config
 import pymssql
 
 
-server = config.server
-user = config.user
-password = config.password
-database = config.database
+server = config.db_server
+user = config.db_user
+password = config.db_password
+database = config.db_name
 application_configuration_table_name = config.application_configuration_table_name
 
 
